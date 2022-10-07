@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="배화여대 모바일 웹">
+<meta property="og:description" content="2019 배화여대 모바일 웹">
+<meta property="og:site_name" content="baewha_CampusTown">
+<meta property="og:image"content="http://bwct.com/files/main3.jpg">
+<meta property="og:url" content="">
+
+<title>배화여자대학교 모바일 웹</title>
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/slick.css">
+<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+
+<link rel=" shortcut icon" href="./img/favicon.ico">
+<link rel="icon" href="./img/favicon.ico">
+
+<script src="./js/jquery-3.2.1.min.js"></script>
+</head>
+
+
+
+
+<body>
+	
+
+<div class="bg_black"></div>
+<div class="bg_black2"></div>
+<header>
+	<a href="#" class="total"> <span></span>
+	</a> <a href="#" class="logo"> BAEWHA MOBILE </a> 
+</header>
+	
+
+<nav class="menu-nav">
+	<ul id="menu">
+
+		<li class="main"><a href="#">배화여대 모바일 웹</a>
+			<ul class="sub">
+				<li><a href="#">총장 인사</a></li>
+				<li id="info_link1"><a href="#">배화여자대학교 연혁</a></li>
+				<li id="info_link2"><a href="#">오시는길</a></li>
+			</ul></li>
+
+		<li class="main"><a href="#">학과 소개</a>
+			<ul class="sub">
+				<li><a href="#">학과 목록</a></li>
+			</ul>
+		</li>
+
+		<li class="main"><a href="#">커뮤니티</a>
+			<ul class="sub">
+				<li><a href="#">공지사항</a></li>
+				<li><a href="#">자유게시판</a></li>
+			</ul></li>
+
+		<li class="main"><a href="#">공식홈페이지</a>
+			<ul class="sub">
+				<li><a href="#">공식홈페이지</a></li>
+			</ul>
+		</li>
+		<!-- li 태그에서 class="main" id="menu_link" 설정. 그리고 ul 태그 추가했음 -->
+
+		<li class="main"><a href="#">관리</a>
+			<ul class="sub">
+				<li><a href="#">로그인</a></li>
+			</ul>
+		</li>
+
+	</ul>
+</nav>
+
+	
+
+
+<script>
+	function appDown() {
+		if (confirm('앱을 다운받으시겠습니까?')) {
+			location.href = '#';
+		}
+	}
+</script>
+
+
+
+
+<!--content-->
+	<div id="wrap">
+
+
+		<section id="slide">
+			<ul id="mainImg" class="fade">
+				<li>
+					<img src="./files/main1.jpg" alt="슬라이드1">
+				</li>
+				<li>
+					<img src="./files/main2.jpg" alt="슬라이드2">
+				</li>
+				<li>
+					<img src="./files/main3.jpg" alt="슬라이드3">
+				</li>
+			</ul>
+		</section>
+
+
+
+		<section id="notice">
+			<dl>
+				<dt>공지사항</dt>
+				<dd>
+					<a href="#"> [산학협력단] 스마트IT과 2019학년도 웹퍼블리셔 국가전략산업직종 프로그램 안내 및 참가자 모집 안내</a>
+				</dd>
+
+				<dt>학교 새소식</dt>
+				<dd>
+					<a href="#">
+						배화여자대학교 한복학과 - 전통문화 부흥을 위한 정부정책지원으로 새 단장하여 돌아왔다!
+					</a>
+				</dd>
+			</dl>           
+		</section>
+
+
+
+		<section id="intro">
+			<div class="intro_box">
+				<p>WELCOME!</p>
+				<p>배화여자대학교 모바일 웹</p>
+				<p>배화여자대학교는 서울특별시 종로구 필운대로1길 34 (누상동)에 위치한 2/3/4년제 여자대학이며, <br>개신교 감리회 계열의 미션스쿨입니다.</p>
+				<button class="more_btn" onclick="location.href='#'">자세히 ▶</button>
+			</div>
+
+			<div class="app_box">
+				<a href="javascript:appDown()"></a>
+			</div>
+
+		</section>
+
+
+ 
+
+		<section id="today">
+			<h3 class="h_text">배화여자대학교 학과 목록</h3>
+			<ul class="today today_str">
+			
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/food.jpg'  alt="학과 소개 1">
+						<div class="today_s_detail s_detail ">
+							<p>전통조리과</p>
+							<p>외식조리디저트과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li> 
+
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/talk.jpg'  alt="학과 소개 2">
+						<div class="today_s_detail s_detail ">
+							<p>비즈니스어학과</p>
+							<p>영어/중국어/일본어</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+			
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/secretary.jpg'  alt="학과 소개 3">
+						<div class="today_s_detail s_detail ">
+							<p>비서과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+			
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/fashion.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>패션산업학과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/manage.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>경영학과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/carculator.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>세무회계과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/babysitter.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>아동보육과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/trip.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>글로벌관광과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/hanbok.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>한복문화콘텐츠과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/nutritionist.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>식품영양학과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/childcare.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>유아교육과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+
+				<li class="s_img" style="cursor:pointer;">
+						<img src='college/smartit.jpg'  alt="학과 소개 4">
+						<div class="today_s_detail s_detail ">
+							<p>스마트IT학과</p>
+							<p>SW정보보호과</p>
+							<a href="#">
+								<button>상세보기</button>
+							</a>  
+						</div>
+					</li>
+
+				</ul>
+		</section>
+
+
+
+		<section id="map">
+			<h3 class="h_text">CAMPUSTOWN MAP</h3>
+			<img src="./files/map.png" alt="배화여대 캠퍼스 지도">
+		</section>
+
+
+	</div>
+<!--wrap end-->
+
+
+
+
+<!--footer-->
+<footer>
+	<div class="f_grid">
+
+
+		<div class="f_area">
+			<div class="f_item">
+				<span>About us</span>
+				<ul>
+					<li><a class="f_content" href="https://m.facebook.com/profile.php?id=131699086949667" target="_blank">Facebook</a></li>
+					<li><a class="f_content" href="#" target="_blank">cafe</a></li>
+					<li><a class="f_content" href="#" target="_blank">Blog</a></li>
+				</ul>
+			</div>
+
+			<div class="f_item">
+				<span>Contact</span>
+				<ul>
+					<li><a class="f_content" href="tel:02-399-0700"> tel : 02-399-0700 </a></li>
+					<li><a class="f_content" href="https://www.baewha.ac.kr/main.do" target="_blank"> site : https://www.baewha.ac.kr/main.do </a></li>
+					<li><a class="f_content" href="tax:02-737-8431"> tax : 02-737-8431 </a></li>
+					<li class="f_content">(우)03039 서울특별시 종로구 필운대로 1길 34 배화여자대학교</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="f_copyright">
+			<span>2019&copy;BAEWHA UNIVERSITY</span> 
+				<a class="f_content" href="http://brand.seoul.go.kr/front/index.do" target="_blank">
+				<img src="./img/seoul.jpg" alt="서울시 로고"> 
+				</a>
+				<a class="f_content" href="https://www.baewha.ac.kr/main.do" target="_blank">
+				<img src="./img/baewha.png" alt="배화여대 로고">
+				</a>
+		</div>
+
+
+	</div>
+</footer>
+
+
+
+	
+<div class="script">
+    <script src="./js/main.js"></script>
+    <script src="./js/slick.min.js"></script>
+</div>
+
+
+
+</body>
+</html>
+
+
